@@ -2,7 +2,7 @@
 
 Отрендеренные презентации находятся в директории [publish](publish):
 
-- [Оформление текста в LaTeX](publish/latex.pdf)
+- [Оформление текста в LaTeX](publish/latex.pdf?raw=true)
 
 ## Building
 
