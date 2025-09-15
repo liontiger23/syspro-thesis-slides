@@ -69,10 +69,10 @@ def fact(n):
 \Begin{minipage}[c][.35\textheight][c]{.6\textwidth}
 \Begin{mdframed}[backgroundcolor=maininverted,linecolor=maininverted]
 ```
-![](images/sample/Markdown-mark.pdf)
+![](images/latex/Markdown-mark.pdf)
 
 <!-- Without minipage could be simply this:
-![](images/sample/Markdown-mark.pdf){ width=60% }
+![](images/latex/Markdown-mark.pdf){ width=60% }
 -->
 ```{=latex}
 \End{mdframed}
@@ -86,10 +86,10 @@ def fact(n):
 \Begin{minipage}[c][.35\textheight][c]{.6\textwidth}
 \Begin{mdframed}[backgroundcolor=maininverted,linecolor=maininverted]
 ```
-![](images/sample/Markdown-mark.svg.png)
+![](images/latex/Markdown-mark.svg.png)
 
 <!-- Without minipage could be simply this:
-![](images/sample/Markdown-mark.svg.png){ width=60% }
+![](images/latex/Markdown-mark.svg.png){ width=60% }
 -->
 ```{=latex}
 \End{mdframed}

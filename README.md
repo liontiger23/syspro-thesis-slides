@@ -1,14 +1,8 @@
-# Presentation template
+# Презентации курса Сопровождение Научной Работы
 
-Sample template to get you started with Pandoc + Beamer presentations.
+Отрендеренные презентации находятся в директории [publish](publish):
 
-Fork this repository to bootstrap your presentation.
-
-Source markdown files located at [src](src) directory.
-Result is published at [publish](publish) directory.
-
-Sample: [src/sample.md](src/sample.md)  
-Result: [publish/sample.pdf](publish/sample.pdf)
+- [Оформление текста в LaTeX](publish/latex.pdf)
 
 ## Building
 
