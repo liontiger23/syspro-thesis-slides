@@ -1,197 +1,106 @@
 ---
-title: Presentation template
-author: Ivan Trepakov
-institute: University
+title: Оформление текста ВКР
+subtitle: Сопровождение Научной Работы
 ---
 
-# Пример слайда с кириллицей
-
-## Теорема Пифагора
-
-Основная формулировка содержит алгебраические действия ---
-в прямоугольном треугольнике, длины катетов которого равны 
-$a$ и $b$, а длина гипотенузы --- $c$, выполнено соотношение:
-$$
-a^2 + b^2 = c^2.
-$$
-
-## Пример программы
-
-```{.python}
-#$\ $Вычисление$\ $факториала$\ $числа$\ $n
-def fact(n):
-  if (n==1 or n==0):
-    return 1
-  else:
-    return n * fact(n - 1)
-```
-
-# Sample slide
+# Правила оформления
 
 ::: columns
-:::: {.column width=48%}
+:::: {.column width=55%}
 
-```{=latex}
-%% Set color of code formatting to CtpPeach in first column
-\lstset{style=default,basicstyle={\ttfamily\color{CtpPeach}}}
-```
+\onslide<3->
 
-## First column
+## \centering Пояснения
 
-- You can use all Markdown features and directly embed `\LaTeX`{=latex}
-- `\uncover<2->{`{=latex} Beamer allows you to flexibly animate slides with `\uncover<X>` and `\only<X>` `}`{=latex}
-- `\uncover<3->{`{=latex} For images it is better to use vector graphics, e.g. in `.svg` which is automatically converted into `.pdf` via `Makefile` magic `}`{=latex}
-- `\uncover<4->{`{=latex} You can also use `.png` or `.jpg` but they usually look worse than `.svg`/`.pdf` `}`{=latex}
-- `\uncover<5->{`{=latex} Or you can dive deep into Ti*k*Z `}`{=latex}
-- `\uncover<6->{`{=latex} Links can also be embeded as QR codes into presentation with `\LaTeX }`{=latex}
+- Вспомогательные материалы
+  - [Методические рекомендации](https://www.nsu.ru/n/mathematics-mechanics-department/documents/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5%20%D1%80%D0%B5%D0%BA%D0%BE%D0%BC%D0%B5%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D0%B8%20(%D0%BA%D1%83%D1%80%D1%81,%20%D0%92%D0%9A%D0%A0,%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%D1%8B).pdf)
+  - [ГОСТ\ 7.32---2001](https://www.nsu.ru/n/mathematics-mechanics-department/documents/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.pdf)
+- Обложка и титульный лист
+  - Оформляется по [шаблону](https://www.nsu.ru/n/mathematics-mechanics-department/documents/%D0%A2%D0%B8%D1%82%D1%83%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%BB%D0%B8%D1%81%D1%82%D1%8B%202018.doc)
+- Реферат (аннотация)
+  - \textcolor{CtpGreen}{Не требуется} на кафедре программирования
+- Перечень условных обозначений
+  - \textcolor{CtpGreen}{На ваше усмотрение}
+- Основная часть
+  - Поля: \textcolor{CtpRed}{как в указаниях}
+  - Шрифт:
+    \textcolor{CtpGreen}{любой} (обычно Times New Roman),
+    \textcolor{CtpRed}{через два интервала},
+    \textcolor{CtpRed}{14 кеглем}
+- Список использованной литературы
+  - [ГОСТ\ Р\ 7.0.5---2008](https://www.ifap.ru/library/gost/7052008.pdf)
 
 ::::
-\vline
-:::: {.column width=2%}
-::::
-:::: {.column width=48%}
 
-## \centering Second column (centered)
+:::: {.column width=43%}
 
-```{=latex}
-\only<1-2>{
-```
-- Markdown lists
-- With beautiful math: $x^n + y^n = z^n$
-- And *easy* **Markdown** `styles`
-```{=latex}
-}
-```
+\onslide<2->
 
-```{=latex}
-\only<3-4>{
+## \centering Правила оформления дипломной работы на ММФ
+
 \centering
-\Begin{minipage}[c][.35\textheight][c]{.6\textwidth}
-\Begin{mdframed}[backgroundcolor=maininverted,linecolor=maininverted]
-```
-![](images/latex/Markdown-mark.pdf)
 
-<!-- Without minipage could be simply this:
-![](images/latex/Markdown-mark.pdf){ width=60% }
--->
-```{=latex}
-\End{mdframed}
-\End{minipage}
-}
-```
+![](images/latex/mmf-thesis.png)
+
+::::: columns
+:::::: {.column width=80%}
 
 ```{=latex}
-\only<4>{
+\begin{minipage}[c][.1\textheight][c]{\linewidth}
+\centering \scriptsize
+```
+<https://www.nsu.ru/n/mathematics-mechanics-department/studentam/thesis/>
+```{=latex}
+\end{minipage}
+```
+::::::
+:::::: {.column width=20%}
+
+```{=latex}
+\begin{minipage}[c][.1\textheight][c]{\linewidth}
 \centering
-\Begin{minipage}[c][.35\textheight][c]{.6\textwidth}
-\Begin{mdframed}[backgroundcolor=maininverted,linecolor=maininverted]
+\qrcode[height=1.2cm]{https://www.nsu.ru/n/mathematics-mechanics-department/studentam/thesis/}
+\end{minipage}
 ```
-![](images/latex/Markdown-mark.svg.png)
+::::::
+:::::
 
-<!-- Without minipage could be simply this:
-![](images/latex/Markdown-mark.svg.png){ width=60% }
--->
-```{=latex}
-\End{mdframed}
-\End{minipage}
-}
-```
-
-```{=latex}
-\only<5>{
-\centering
-\begin{tikzpicture}[every node/.style={text=black}]
-  \begin{scope}[blend group = soft light]
-    \fill[red!30!white]   ( 90:1.2) circle (2);
-    \fill[green!30!white] (210:1.2) circle (2);
-    \fill[blue!30!white]  (330:1.2) circle (2);
-  \end{scope}
-  \node at ( 90:2)    {Typography};
-  \node at ( 210:2)   {Design};
-  \node at ( 330:2)   {Coding};
-  \node [font=\Large] {\LaTeX};
-\end{tikzpicture}
-}
-```
-
-```{=latex}
-\only<6>{
-\vspace{1em}
-\centering
-\qrcode[height=3cm]{https://texample.net/tikz/examples/}
-\vspace{1em}
-```
-<https://texample.net/tikz/examples/>
-
-```{=latex}
-}
-```
 
 
 ::::
 :::
 
-# Incremental code highlighting {.fragile}
+# ГОСТ
 
-::: columns
-:::: column
+. . .
 
-```{=latex}
-%% Set color of code formatting to CtpPeach in first column
-\lstset{style=default,basicstyle={\ttfamily\color{CtpPeach}}}
-```
+> \centering ГОСТ --- Межгосударственный стандарт
 
-## Beamer macros
+. . .
 
-- `\onslide<X>` macro can be used inside of code listings
-  to provide custom animations
-- `\setbeamercovered` macro controls how the elements are displayed
-  when they are supposed to be hidden
-- In this example `\setbeamercovered{transparent=40}` makes elements
-  dimmed instead of being hidden completely
+## \centering Система стандартов по информации, библиотечному и издательскому делу
 
-::::
-:::: column
+. . .
 
-## Code sample
+- [ГОСТ\ 7.32---2001](https://www.nsu.ru/n/mathematics-mechanics-department/documents/%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.pdf)
+  \small Отчет о научно-исследовательской работе. Структура и правила оформления
+  - Содержит множество \textcolor{CtpGreen}{рекомендаций} по оформлению
+  - На практике часто оформляют \textcolor{CtpRed}{не по ГОСТу}
+    - Нумерацию перечислений
+    - Формат сносок и листингов
 
-```{=latex}
-\setbeamercovered{transparent=40}
-```
+. . .
 
-```python
-$\onslide<1        >$# Factorial example
-$\onslide<1,2,6    >$def factorial(n):
-$\onslide<1,3,4,7,8>$  if n < 2:
-$\onslide<1,3,7,9  >$    return 1
-$\onslide<1,3,4,7,8>$  else:
-$\onslide<1,3,5,7  >$    return n * factorial(n-1)
-```
-
-::::
-:::
-
-# Conclusion
-
-::: columns
-:::: {.column width=10%}
-::::
-:::: {.column width=75%}
-
-## \centering Summary
-
-- Pandoc = Markdown + `\LaTeX`{=latex}
-- Please use this template and never open ~~Google Slides~~ PowerPoint ever again
-
-::::
-:::: {.column width=10%}
-::::
-:::
+- [ГОСТ\ Р\ 7.0.5---2008](https://www.ifap.ru/library/gost/7052008.pdf) 
+  \small Библиографическая ссылка. Общие требования и правила составления
+  - Есть поддержка во многих системах составления библиографии
+    - Citation style language на [Zotero](https://www.zotero.org/styles?q=GOST)
+    - Пакеты [gost](https://ctan.org/tex-archive/biblio/bibtex/contrib/gost?lang=en)
+      и [biblatex-gost](https://ctan.org/pkg/biblatex-gost?lang=en) для \LaTeX
 
 # {.plain}
 
-\vspace{.7\textheight}
-\begin{beamercolorbox}[ht=4ex,dp=2ex,center]{title}
-\large Thank you for your attention
-\end{beamercolorbox}
-
+\centering
+```{=latex}
+{\fontsize{48pt}{7.2}\selectfont Q\&A }
+```
