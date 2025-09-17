@@ -157,7 +157,7 @@ subtitle: Сопровождение Научной Работы
   - Аналогичный репозиторий для ВКР в pandoc
   - Придется изучить не только \LaTeX, но и \textcolor{CtpRed}{особенности работы} pandoc
     и их \textcolor{CtpRed}{взаимодействия друг с другом}
-- [AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template](https://github.com/liontiger23/master-thesis-2018)
+- [AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template](https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template)
   - Довольно \textcolor{CtpRed}{громоздкий} шаблон для диссертаций
   - \textcolor{CtpGreen}{Рекомендуется} ознакомиться с отрендеренным
     [документом](https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template/releases/download/v1.0.0/dissertation_lualatex_cmu_bibtex.pdf?raw=true),
