@@ -104,6 +104,8 @@ subtitle: Сопровождение Научной Работы
 
 . . .
 
+\vspace{-0.5em}
+
 ::: columns
 :::: {.column width=35%}
 
@@ -134,12 +136,14 @@ subtitle: Сопровождение Научной Работы
 
 ## \centering Примеры работ
 
+- Работы выпускников SysPro
+  - На [сайте](https://nsu-syspro.github.io/theses/)
 - Master thesis 2018 (pandoc)
-  - [GitHub](https://github.com/liontiger23/master-thesis-2018)
-  - [pdf](https://github.com/liontiger23/master-thesis-2018/blob/master/publish/thesis.pdf?raw=true)
+  - [GitHub](https://github.com/liontiger23/master-thesis-2018) /
+    [pdf](https://github.com/liontiger23/master-thesis-2018/blob/master/publish/thesis.pdf?raw=true)
 - PhD report 2021 (pandoc)
-  - [GitHub](https://github.com/liontiger23/phd-report-2021)
-  - [pdf](https://github.com/liontiger23/phd-report-2021/blob/master/publish/report.pdf?raw=true)
+  - [GitHub](https://github.com/liontiger23/phd-report-2021) /
+    [pdf](https://github.com/liontiger23/phd-report-2021/blob/master/publish/report.pdf?raw=true)
 
 ::::
 :::: {.column width=65%}
@@ -151,17 +155,20 @@ subtitle: Сопровождение Научной Работы
 - [liontiger23/thesis-template-latex](https://github.com/liontiger23/thesis-template-latex)
   - \textcolor{CtpGreen}{Рекомендуемый} стартовый репозиторий для ВКР в \LaTeX
   - Два основных файла: преамбула и основной текст
-  - Легко расширяется
-  - Сборка через `make`
 - [liontiger23/thesis-template](https://github.com/liontiger23/thesis-template)
   - Аналогичный репозиторий для ВКР в pandoc
   - Придется изучить не только \LaTeX, но и \textcolor{CtpRed}{особенности работы} pandoc
     и их \textcolor{CtpRed}{взаимодействия друг с другом}
+- [rustam2027/vkr-template-nsu](https://github.com/rustam2027/vkr-template-nsu)
+  - \textcolor{CtpGreen}{Рекомендуемый} стартовый репозиторий для ВКР в Typst
+  - Каждый раздел в отдельном файле
 - [AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template](https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template)
   - Довольно \textcolor{CtpRed}{громоздкий} шаблон для диссертаций
   - \textcolor{CtpGreen}{Рекомендуется} ознакомиться с отрендеренным
     [документом](https://github.com/AndreyAkinshin/Russian-Phd-LaTeX-Dissertation-Template/releases/download/v1.0.0/dissertation_lualatex_cmu_bibtex.pdf?raw=true),
     с множеством различных примеров, правил и особенностей оформления
+
+\vspace{0.5em}
 
 ::::
 :::
